@@ -14,13 +14,14 @@ git checkout usoc2014
 git submodule init
 git submodule update
 ##### Installing deps
-source /home/vagrant/umit/env/bin/activate && sh umit.sh deps
+
+/bin/bash -c ". /home/vagrant/umit/env/bin/activate; sh umit.sh deps"
 
 ##### Installing Packet Manipulator
 cd ..
 git clone https://github.com/umitproject/packet-manipulator.git
 cd packet-manipulator
 git checkout usoc2014
-pip install -r requirements.txt
+/bin/bash -c ". /home/vagrant/umit/env/bin/activate; pip install -r requirements.txt"
 
 echo 'End'

@@ -109,3 +109,4 @@ fi
 
 #virtualenvwrapper
 #export WORKON_HOME=/usr/share/virtualenvs
+alias ev='. /home/vagrant/umit/env/bin/activate'

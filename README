@@ -1,0 +1,20 @@
+Enviroment for developers
+
+# Install Vagrant in your machine (http://www.vagrantup.com/downloads.html)
+# Run vagrant and wait for a few minutes
+   $ vagrant up
+
+# Log in into your new vagrant box
+   $ vagrant ssh
+
+# Run install.sh to Clone and Install Umit Projects
+   $ cd umit
+   $ sh install.sh
+
+# Check if all is ok running Network Scanner
+	$ cd network-scanner
+	$ sh umit.sh umit
+
+# You can point to umit-enviroment/projects in your prefered Text Editor and change/write code that be changed directly in your vagrant box.
+
+# Let's rock =]

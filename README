@@ -1,6 +1,9 @@
-Enviroment for developers
+Environment for developers
 
 # Install Vagrant in your machine (http://www.vagrantup.com/downloads.html)
+# If your OS is Mac, install Xquartx(http://xquartz.macosforge.org)
+# If your OS is Windows, install MobaXterm(http://mobaxterm.mobatek.net)
+
 # Run vagrant and wait for a few minutes
    $ vagrant up
 
@@ -12,9 +15,9 @@ Enviroment for developers
    $ sh install.sh
 
 # Check if all is ok running Network Scanner
-	$ cd network-scanner
-	$ sh umit.sh umit
+   $ cd network-scanner
+   $ sh umit.sh umit
 
-# You can point to umit-enviroment/projects in your prefered Text Editor and change/write code that be changed directly in your vagrant box.
+# You can point to umit-environment/projects in your prefered Text Editor and change/write code that be changed directly in your vagrant box.
 
 # Let's rock =]

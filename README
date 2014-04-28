@@ -16,6 +16,7 @@ Environment for developers
 
 # Check if all is ok running Network Scanner
    $ cd network-scanner
+   $ ev    # alias to activate virtualenv 
    $ sh umit.sh umit
 
 # You can point to umit-environment/projects in your prefered Text Editor and change/write code that be changed directly in your vagrant box.

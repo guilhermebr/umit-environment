@@ -7,21 +7,20 @@ cd /home/vagrant/umit
 virtualenv --system-site-packages env
 
 ##### Cloning Network Scanner
-git clone https://github.com/umitproject/network-scanner.git
+git clone --recursive git://github.com/umitproject/network-scanner.git
 cd network-scanner
 git checkout usoc2014
 ##### Cloning deps in deps/ directory
-git submodule init
-git submodule update
 ##### Installing deps
 
 /bin/bash -c ". /home/vagrant/umit/env/bin/activate; sh umit.sh deps"
 
 ##### Installing Packet Manipulator
 cd ..
-git clone https://github.com/umitproject/packet-manipulator.git
+git clone --recursive git://github.com/umitproject/packet-manipulator.git
 cd packet-manipulator
 git checkout usoc2014
 /bin/bash -c ". /home/vagrant/umit/env/bin/activate; pip install -r requirements.txt"
-
+cd deps/pygtkhex
+/bin/bash -c ". /home/vagrant/umit/env/bin/activate; python setup.py install"
 echo 'End'

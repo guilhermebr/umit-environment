@@ -1,8 +1,8 @@
 Environment for developers
 
 # Install Vagrant in your machine (http://www.vagrantup.com/downloads.html)
-# If your OS is Mac, install Xquartx(http://xquartz.macosforge.org)
-# If your OS is Windows, install MobaXterm(http://mobaxterm.mobatek.net)
+# If you use Mac, install Xquartx(http://xquartz.macosforge.org)
+# If you use Windows, install MobaXterm(http://mobaxterm.mobatek.net)
 
 # Run vagrant and wait for a few minutes
    $ vagrant up

@@ -1,7 +1,7 @@
 from socket import *
 
 ports = [21, 22, 23, 80, 8080]
-host = '186.226.87.100'
+host = 'www.google.com'
 
 def scan(host, port):
     try:

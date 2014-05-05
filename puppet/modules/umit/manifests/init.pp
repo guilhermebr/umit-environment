@@ -6,7 +6,7 @@ class umit {
   #  before => File['/home/vagrant/umit/install.sh'],
   }
 
-  $packs = [ "libpcap-dev", "gtk+2", "libgtk2.0-dev", "nmap" ]
+  $packs = [ "libpcap-dev", "gtk+2", "libgtk2.0-dev", "nmap", "libgtkhex-3-dev" ]
   package { 
     $packs: ensure => present,
   #  before => File['/home/vagrant/umit/install.sh'],

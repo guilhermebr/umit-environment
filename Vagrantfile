@@ -15,8 +15,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = box
   config.vm.box_url = url
   config.vm.host_name = hostname + '.' + domain
+
+  config.vm.network :forwarded_port, guest: 8059, host: 8059
+
   config.vm.network :private_network, ip: ip
   #config.vm.network :public_network
+  
+  config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.synced_folder "./projects/", "/home/vagrant/umit"
 
   config.ssh.forward_x11 = true

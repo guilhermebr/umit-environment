@@ -1,13 +1,12 @@
 import optparse
 from socket import *
 
-"""
+def scan(host, port):
+    """
     AF_INET = Socket Family (here Address Family version 4 or IPv4)
     SOCK_STREAM = Socket type TCP connections
     SOCK_DGRAM = Socket type UDP connections
-"""
-
-def scan(host, port):
+    """
     try:
         setdefaulttimeout(2)
         sock = socket(AF_INET, SOCK_STREAM)

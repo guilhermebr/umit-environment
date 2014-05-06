@@ -1,16 +1,16 @@
 #Ideas to be implemented in USoC 2014
 
-1 - Umit Core
+1 - [Umit Core] (umit-core.md)
 
-2 - Umit Modules
+2 - [Umit Modules] (umit-modules.md)
 
-3 - Umit API
+3 - [Umit API] (umit-api.md)
 
-4 - Umit Web
+4 - [Umit Web] (umit-web.md)
 
-5 - Umit Shell
+5 - [Umit Shell] (umit-shell.md)
 
-6 - Umit OS
+6 - [Umit OS] (umit-os.md)
 
 Extra:
 

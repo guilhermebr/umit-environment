@@ -4,7 +4,7 @@
 	
 2 - Accept portrange option (Ex: 21-80)
 
-3 - If port is null, set a default portrange to scan
+3 - If port is null, set a default portrange to scan (/etc/services is a good list =])
 
 4 - Add options to scan types (TCP, UDP, IP)
 
